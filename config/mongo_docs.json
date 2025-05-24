@@ -1,0 +1,986 @@
+[
+  {
+    "_id": {
+      "$oid": "63fab0f2e382700000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-01T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 3208.947820502772,
+    "cpuTime_MS": 1420.9174418596472,
+    "memoryUsed_MB": 11.760229992407716,
+    "cpuEnergy_J": 952.0146860459637,
+    "ramEnergy_J": 0.002940057498101929,
+    "totalEnergy_J": 952.0176261034618,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "c79da4256fb1700000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 2618.7799641903516,
+        "cpuTime_MS": 1107.948420590396,
+        "memoryUsed_MB": 4.386134127500096,
+        "cpuEnergy_J": 742.3254417955653,
+        "ramEnergy_J": 0.001096533531875024,
+        "totalEnergy_J": 742.3265383290972
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "70e536dac52c900000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-02T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2538.1736664047744,
+    "cpuTime_MS": 1049.868960230815,
+    "memoryUsed_MB": 6.339768701218926,
+    "cpuEnergy_J": 703.4122033546461,
+    "ramEnergy_J": 0.0015849421753047314,
+    "totalEnergy_J": 703.4137882968214,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "cf6bc1bb20e9f00000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 3157.433486608043,
+        "cpuTime_MS": 1308.4268672232647,
+        "memoryUsed_MB": 15.777326400215628,
+        "cpuEnergy_J": 876.6460010395874,
+        "ramEnergy_J": 0.003944331600053907,
+        "totalEnergy_J": 876.6499453711875
+      },
+      {
+        "_id": {
+          "$oid": "4e0c06df57fa400000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 1687.9833858814682,
+        "cpuTime_MS": 924.2388355585542,
+        "memoryUsed_MB": 9.351855020211026,
+        "cpuEnergy_J": 619.2400198242314,
+        "ramEnergy_J": 0.0023379637550527566,
+        "totalEnergy_J": 619.2423577879864
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "83698a9d863b400000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-03T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 3097.4387170368727,
+    "cpuTime_MS": 1458.121871427174,
+    "memoryUsed_MB": 12.205466985792322,
+    "cpuEnergy_J": 976.9416538562067,
+    "ramEnergy_J": 0.0030513667464480807,
+    "totalEnergy_J": 976.9447052229532,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "0d941cecbdbb000000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 3324.2267023847035,
+        "cpuTime_MS": 1476.803874038339,
+        "memoryUsed_MB": 12.810315420125516,
+        "cpuEnergy_J": 989.4585956056872,
+        "ramEnergy_J": 0.0032025788550313792,
+        "totalEnergy_J": 989.4617981845422
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "354f19d02551c00000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-04T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 1769.933503640448,
+    "cpuTime_MS": 753.3023125247005,
+    "memoryUsed_MB": 12.3613459271494,
+    "cpuEnergy_J": 504.7125493915494,
+    "ramEnergy_J": 0.0030903364817873504,
+    "totalEnergy_J": 504.71563972803114,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "00c375074e29d00000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 3167.1711459505837,
+        "cpuTime_MS": 1311.4524654344866,
+        "memoryUsed_MB": 8.938398120610715,
+        "cpuEnergy_J": 878.6731518411061,
+        "ramEnergy_J": 0.002234599530152679,
+        "totalEnergy_J": 878.6753864406363
+      },
+      {
+        "_id": {
+          "$oid": "51c13b4c5f87000000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 2219.771684855318,
+        "cpuTime_MS": 1083.2017062669486,
+        "memoryUsed_MB": 9.78657331499398,
+        "cpuEnergy_J": 725.7451431988555,
+        "ramEnergy_J": 0.002446643328748495,
+        "totalEnergy_J": 725.7475898421843
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7f43089bbba4500000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-05T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2561.169209860826,
+    "cpuTime_MS": 1402.9110091127977,
+    "memoryUsed_MB": 4.197041278900182,
+    "cpuEnergy_J": 939.9503761055745,
+    "ramEnergy_J": 0.0010492603197250455,
+    "totalEnergy_J": 939.9514253658942,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "8c157277422cb00000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1994.6789234599844,
+        "cpuTime_MS": 888.7679823261224,
+        "memoryUsed_MB": 4.4335125343115775,
+        "cpuEnergy_J": 595.474548158502,
+        "ramEnergy_J": 0.0011083781335778943,
+        "totalEnergy_J": 595.4756565366356
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e3f3e486328a900000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-06T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 3237.867690696426,
+    "cpuTime_MS": 1418.5552710850075,
+    "memoryUsed_MB": 4.351875177916284,
+    "cpuEnergy_J": 950.4320316269551,
+    "ramEnergy_J": 0.001087968794479071,
+    "totalEnergy_J": 950.4331195957495,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "dc214c440d1cc00000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1652.3888014545207,
+        "cpuTime_MS": 891.8094242088576,
+        "memoryUsed_MB": 11.708721684798924,
+        "cpuEnergy_J": 597.5123142199346,
+        "ramEnergy_J": 0.002927180421199731,
+        "totalEnergy_J": 597.5152414003559
+      },
+      {
+        "_id": {
+          "$oid": "1cde236a97d2900000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 2827.6964152968862,
+        "cpuTime_MS": 1265.086087241762,
+        "memoryUsed_MB": 5.013909397806037,
+        "cpuEnergy_J": 847.6076784519806,
+        "ramEnergy_J": 0.0012534773494515092,
+        "totalEnergy_J": 847.6089319293301
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bab1ad153d900000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-07T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2747.429602313747,
+    "cpuTime_MS": 1266.57441029147,
+    "memoryUsed_MB": 9.418918127236868,
+    "cpuEnergy_J": 848.6048548952849,
+    "ramEnergy_J": 0.002354729531809217,
+    "totalEnergy_J": 848.6072096248167,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "fe5960c9bb8f300000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1402.3936278885194,
+        "cpuTime_MS": 800.6343339289967,
+        "memoryUsed_MB": 14.262325200531208,
+        "cpuEnergy_J": 536.4250037324279,
+        "ramEnergy_J": 0.0035655813001328023,
+        "totalEnergy_J": 536.428569313728
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7af9bc2a65e3b00000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-08T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2635.247651114459,
+    "cpuTime_MS": 1295.834942415785,
+    "memoryUsed_MB": 5.459802248397112,
+    "cpuEnergy_J": 868.209411418576,
+    "ramEnergy_J": 0.001364950562099278,
+    "totalEnergy_J": 868.2107763691381,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "bcbb961a762c600000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 3312.3918146653477,
+        "cpuTime_MS": 1393.5282765916302,
+        "memoryUsed_MB": 7.797102792988485,
+        "cpuEnergy_J": 933.6639453163923,
+        "ramEnergy_J": 0.0019492756982471215,
+        "totalEnergy_J": 933.6658945920906
+      },
+      {
+        "_id": {
+          "$oid": "5a19dd6e1ae5f00000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 1457.897440875335,
+        "cpuTime_MS": 852.4491814901191,
+        "memoryUsed_MB": 14.161345353048706,
+        "cpuEnergy_J": 571.1409515983798,
+        "ramEnergy_J": 0.0035403363382621763,
+        "totalEnergy_J": 571.1444919347181
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e21ad2c3a0e1200000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-09T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2215.7602787849796,
+    "cpuTime_MS": 1224.3928432321673,
+    "memoryUsed_MB": 13.5239277369101,
+    "cpuEnergy_J": 820.3432049655521,
+    "ramEnergy_J": 0.003380981934227525,
+    "totalEnergy_J": 820.3465859474863,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "757968227a62900000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 2786.6753873644066,
+        "cpuTime_MS": 1131.1041293559897,
+        "memoryUsed_MB": 10.889137961682838,
+        "cpuEnergy_J": 757.8397666685131,
+        "ramEnergy_J": 0.0027222844904207094,
+        "totalEnergy_J": 757.8424889530036
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fb5abbda3fc1500000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-10T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2373.8012698196057,
+    "cpuTime_MS": 1459.666298148034,
+    "memoryUsed_MB": 9.638772159757469,
+    "cpuEnergy_J": 977.9764197591828,
+    "ramEnergy_J": 0.0024096930399393674,
+    "totalEnergy_J": 977.9788294522227,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "0e0b736774d6500000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1973.9932180362352,
+        "cpuTime_MS": 1036.4073297389646,
+        "memoryUsed_MB": 14.225778746296218,
+        "cpuEnergy_J": 694.3929109251063,
+        "ramEnergy_J": 0.0035564446865740543,
+        "totalEnergy_J": 694.3964673697928
+      },
+      {
+        "_id": {
+          "$oid": "34cb04074ab3c00000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 985.897044109255,
+        "cpuTime_MS": 603.0009331919297,
+        "memoryUsed_MB": 5.025403509146115,
+        "cpuEnergy_J": 404.0106252385929,
+        "ramEnergy_J": 0.0012563508772865288,
+        "totalEnergy_J": 404.0118815894702
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "231ab15b9b21200000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-11T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2807.9679259810678,
+    "cpuTime_MS": 1167.2246928190252,
+    "memoryUsed_MB": 8.369388650938156,
+    "cpuEnergy_J": 782.0405441887469,
+    "ramEnergy_J": 0.002092347162734539,
+    "totalEnergy_J": 782.0426365359097,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "a4ce454f21f6e00000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 2301.719525072885,
+        "cpuTime_MS": 1382.874172603719,
+        "memoryUsed_MB": 5.934987317385102,
+        "cpuEnergy_J": 926.5256956444917,
+        "ramEnergy_J": 0.0014837468293462754,
+        "totalEnergy_J": 926.527179391321
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "d40ff1dac904500000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-12T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2003.6244121171299,
+    "cpuTime_MS": 872.6725395313242,
+    "memoryUsed_MB": 9.452644870717803,
+    "cpuEnergy_J": 584.6906014859873,
+    "ramEnergy_J": 0.0023631612176794508,
+    "totalEnergy_J": 584.6929646472049,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "dcf13ef6d235b00000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1619.5033574005336,
+        "cpuTime_MS": 931.6893597526639,
+        "memoryUsed_MB": 11.284297813491033,
+        "cpuEnergy_J": 624.2318710342848,
+        "ramEnergy_J": 0.0028210744533727584,
+        "totalEnergy_J": 624.2346921087382
+      },
+      {
+        "_id": {
+          "$oid": "8189d6af2ee6800000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 1559.3322881420304,
+        "cpuTime_MS": 701.7035277932914,
+        "memoryUsed_MB": 9.2024777029855,
+        "cpuEnergy_J": 470.14136362150526,
+        "ramEnergy_J": 0.0023006194257463746,
+        "totalEnergy_J": 470.143664240931
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "bd52081f5027b00000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-13T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 1202.6235154307678,
+    "cpuTime_MS": 762.0183334614669,
+    "memoryUsed_MB": 8.818943898115624,
+    "cpuEnergy_J": 510.55228341918286,
+    "ramEnergy_J": 0.002204735974528906,
+    "totalEnergy_J": 510.5544881551574,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "3d1e42524d6eb00000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1863.4079393746745,
+        "cpuTime_MS": 903.6576848567164,
+        "memoryUsed_MB": 11.306091177619024,
+        "cpuEnergy_J": 605.4506488540001,
+        "ramEnergy_J": 0.002826522794404756,
+        "totalEnergy_J": 605.4534753767945
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "ae9b1348a37dd00000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-14T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2168.460231465634,
+    "cpuTime_MS": 1122.6551964704554,
+    "memoryUsed_MB": 6.967978608773259,
+    "cpuEnergy_J": 752.1789816352051,
+    "ramEnergy_J": 0.0017419946521933147,
+    "totalEnergy_J": 752.1807236298573,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "3a39fe8b7df4200000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 3092.503460116221,
+        "cpuTime_MS": 1311.2370513949895,
+        "memoryUsed_MB": 11.699773819702708,
+        "cpuEnergy_J": 878.5288244346431,
+        "ramEnergy_J": 0.002924943454925677,
+        "totalEnergy_J": 878.531749378098
+      },
+      {
+        "_id": {
+          "$oid": "4c74288144ec000000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 1147.0790346639317,
+        "cpuTime_MS": 645.7526407570424,
+        "memoryUsed_MB": 7.487947938988503,
+        "cpuEnergy_J": 432.65426930721844,
+        "ramEnergy_J": 0.0018719869847471258,
+        "totalEnergy_J": 432.65614129420317
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7c080c08334e900000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-15T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 1726.6339501280247,
+    "cpuTime_MS": 840.3552425130554,
+    "memoryUsed_MB": 5.678815154820371,
+    "cpuEnergy_J": 563.0380124837471,
+    "ramEnergy_J": 0.0014197037887050928,
+    "totalEnergy_J": 563.0394321875358,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "fea317b669b6900000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1565.1192799251235,
+        "cpuTime_MS": 772.4554443594131,
+        "memoryUsed_MB": 11.6474677365618,
+        "cpuEnergy_J": 517.5451477208069,
+        "ramEnergy_J": 0.0029118669341404503,
+        "totalEnergy_J": 517.548059587741
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "9f2d5755b94ad00000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-16T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 1757.750969853329,
+    "cpuTime_MS": 1152.4521287869952,
+    "memoryUsed_MB": 13.779940670407083,
+    "cpuEnergy_J": 772.1429262872869,
+    "ramEnergy_J": 0.003444985167601771,
+    "totalEnergy_J": 772.1463712724544,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "1bfbc7946c92800000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 2020.4507339090044,
+        "cpuTime_MS": 1251.6323433889174,
+        "memoryUsed_MB": 13.606867374450179,
+        "cpuEnergy_J": 838.5936700705747,
+        "ramEnergy_J": 0.0034017168436125448,
+        "totalEnergy_J": 838.5970717874184
+      },
+      {
+        "_id": {
+          "$oid": "8b92af0874a3700000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 3302.454721610282,
+        "cpuTime_MS": 1471.8773355864355,
+        "memoryUsed_MB": 12.334181772479106,
+        "cpuEnergy_J": 986.1578148429119,
+        "ramEnergy_J": 0.0030835454431197766,
+        "totalEnergy_J": 986.160898388355
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "044b71508045900000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-17T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2384.81974225586,
+    "cpuTime_MS": 1141.4054262219738,
+    "memoryUsed_MB": 14.582327158421958,
+    "cpuEnergy_J": 764.7416355687225,
+    "ramEnergy_J": 0.0036455817896054897,
+    "totalEnergy_J": 764.745281150512,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "ea111e61aa41600000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1294.8391812743107,
+        "cpuTime_MS": 729.9656039097699,
+        "memoryUsed_MB": 11.353201185587405,
+        "cpuEnergy_J": 489.07695461954586,
+        "ramEnergy_J": 0.0028383002963968513,
+        "totalEnergy_J": 489.07979291984225
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "26c6f603b250200000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-18T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 1636.983127918707,
+    "cpuTime_MS": 928.3553976323099,
+    "memoryUsed_MB": 7.919102518654266,
+    "cpuEnergy_J": 621.9981164136476,
+    "ramEnergy_J": 0.0019797756296635665,
+    "totalEnergy_J": 622.0000961892773,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "5af4b560e4d1700000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1216.2071933243517,
+        "cpuTime_MS": 783.2640821305738,
+        "memoryUsed_MB": 14.829254997486126,
+        "cpuEnergy_J": 524.7869350274844,
+        "ramEnergy_J": 0.0037073137493715317,
+        "totalEnergy_J": 524.7906423412338
+      },
+      {
+        "_id": {
+          "$oid": "a016cb57d042600000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 1991.5328385061441,
+        "cpuTime_MS": 982.2693076023215,
+        "memoryUsed_MB": 10.607893959385539,
+        "cpuEnergy_J": 658.1204360935554,
+        "ramEnergy_J": 0.0026519734898463846,
+        "totalEnergy_J": 658.1230880670453
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "1f9eabaa3310900000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-19T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2191.278793595425,
+    "cpuTime_MS": 1318.4988905438402,
+    "memoryUsed_MB": 12.289951724471765,
+    "cpuEnergy_J": 883.394256664373,
+    "ramEnergy_J": 0.003072487931117941,
+    "totalEnergy_J": 883.3973291523041,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "ac6dce23256cb00000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 2697.4639994081604,
+        "cpuTime_MS": 1418.2129440595484,
+        "memoryUsed_MB": 14.269594811491228,
+        "cpuEnergy_J": 950.2026725198974,
+        "ramEnergy_J": 0.003567398702872807,
+        "totalEnergy_J": 950.2062399186003
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "e166f76fbb7c300000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-20T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2333.519913116897,
+    "cpuTime_MS": 1328.9419895858623,
+    "memoryUsed_MB": 15.888793770484334,
+    "cpuEnergy_J": 890.3911330225278,
+    "ramEnergy_J": 0.003972198442621084,
+    "totalEnergy_J": 890.3951052209704,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "7be1e98bedb7e00000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 3170.8645859560474,
+        "cpuTime_MS": 1369.3163854465843,
+        "memoryUsed_MB": 9.196105812094267,
+        "cpuEnergy_J": 917.4419782492115,
+        "ramEnergy_J": 0.0022990264530235666,
+        "totalEnergy_J": 917.4442772756645
+      },
+      {
+        "_id": {
+          "$oid": "912da5e05f54500000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 2465.9023025179126,
+        "cpuTime_MS": 1081.7047654525231,
+        "memoryUsed_MB": 11.808527404209322,
+        "cpuEnergy_J": 724.7421928531905,
+        "ramEnergy_J": 0.0029521318510523304,
+        "totalEnergy_J": 724.7451449850416
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "a3a9322378a6700000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-21T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 908.412930039583,
+    "cpuTime_MS": 579.7656048688277,
+    "memoryUsed_MB": 10.230141322490375,
+    "cpuEnergy_J": 388.4429552621146,
+    "ramEnergy_J": 0.002557535330622594,
+    "totalEnergy_J": 388.4455127974452,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "dec0c8f510ec600000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 2524.9046398154906,
+        "cpuTime_MS": 1311.5437450835234,
+        "memoryUsed_MB": 13.403767710124391,
+        "cpuEnergy_J": 878.7343092059607,
+        "ramEnergy_J": 0.003350941927531098,
+        "totalEnergy_J": 878.7376601478883
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "fd1a260407df800000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-22T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 2026.9002374347756,
+    "cpuTime_MS": 1189.9846558427625,
+    "memoryUsed_MB": 4.8810935118259575,
+    "cpuEnergy_J": 797.2897194146509,
+    "ramEnergy_J": 0.0012202733779564895,
+    "totalEnergy_J": 797.2909396880289,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "667345f842c6700000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 2325.9179847240225,
+        "cpuTime_MS": 992.3013862134619,
+        "memoryUsed_MB": 7.111249493398978,
+        "cpuEnergy_J": 664.8419287630195,
+        "ramEnergy_J": 0.0017778123733497445,
+        "totalEnergy_J": 664.8437065753928
+      },
+      {
+        "_id": {
+          "$oid": "afd1a3a344cdc00000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 2037.6402912841518,
+        "cpuTime_MS": 1122.3248397842362,
+        "memoryUsed_MB": 6.1906621582559715,
+        "cpuEnergy_J": 751.9576426554383,
+        "ramEnergy_J": 0.0015476655395639928,
+        "totalEnergy_J": 751.9591903209779
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "7c45145a43d2800000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-23T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 1369.561832646011,
+    "cpuTime_MS": 901.933575133985,
+    "memoryUsed_MB": 8.159545082217509,
+    "cpuEnergy_J": 604.29549533977,
+    "ramEnergy_J": 0.0020398862705543774,
+    "totalEnergy_J": 604.2975352260406,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "63d780872f05800000000000"
+        },
+        "container": "skills-loan",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 2086.2767482955,
+        "cpuTime_MS": 1228.631722976802,
+        "memoryUsed_MB": 4.888295662432524,
+        "cpuEnergy_J": 823.1832543944573,
+        "ramEnergy_J": 0.0012220739156081311,
+        "totalEnergy_J": 823.184476468373
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "0127d21ab3f0500000000000"
+    },
+    "timestamp": {
+      "$date": "2025-05-24T00:00:00.000Z"
+    },
+    "container": "conversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 1881.529513662719,
+    "cpuTime_MS": 981.7018978106641,
+    "memoryUsed_MB": 6.532347476464,
+    "cpuEnergy_J": 657.740271533145,
+    "ramEnergy_J": 0.001633086869116,
+    "totalEnergy_J": 657.7419046200141,
+    "path": "/chat/api/v1",
+    "trace": [
+      {
+        "_id": {
+          "$oid": "5981d5e217fab00000000000"
+        },
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "path": "/bawaba/loans/v1",
+        "total_executionTime_MS": 1268.54364219784,
+        "cpuTime_MS": 800.0135498262341,
+        "memoryUsed_MB": 12.878264339920104,
+        "cpuEnergy_J": 536.0090783835769,
+        "ramEnergy_J": 0.003219566084980026,
+        "totalEnergy_J": 536.012297949662
+      },
+      {
+        "_id": {
+          "$oid": "e4d140c39976200000000000"
+        },
+        "container": "skills-account",
+        "namespace": "contactcenterservices",
+        "path": "/customers/v1",
+        "total_executionTime_MS": 3595.8419195671763,
+        "cpuTime_MS": 1492.7153225547827,
+        "memoryUsed_MB": 9.142120536804637,
+        "cpuEnergy_J": 1000.1192661117044,
+        "ramEnergy_J": 0.0022855301342011593,
+        "totalEnergy_J": 1000.1215516418386
+      }
+    ],
+    "__v": 0
+  }
+]

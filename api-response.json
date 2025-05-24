@@ -1,0 +1,36 @@
+{
+    "co2Estimate": {
+        "total_executionTime_MS": 8084,
+        "cpuTime_MS": 10.6,
+        "memoryUsed_MB": 0.01,
+        "cpuEnergy_J": 582.048,
+        "ramEnergy_J": 0,
+        "totalEnergy_J": 582.048,
+        "total_emissions_gCO2": 0.276,
+        "trace": [
+            {
+                "url": "/conversational-orchestrator/v1",
+                "total_executionTime_MS": 8018,
+                "cpuTime_MS": 495.84,
+                "memoryUsed_MB": 5.53,
+                "cpuEnergy_J": null,
+                "ramEnergy_J": 0.001,
+                "totalEnergy_J": null,
+                "total_emissions_gCO2": null,
+                "trace": [
+                    {
+                        "path": "/contactcenter/self-service/skills/fin/product-transactions/v1",
+                        "total_executionTime_MS": 6220,
+                        "cpuTime_MS": 667.86,
+                        "memoryUsed_MB": 8.93,
+                        "cpuEnergy_J": null,
+                        "ramEnergy_J": 0.00217,
+                        "totalEnergy_J": null,
+                        "total_emissions_gCO2": null,
+                        "trace": []
+                    }
+                ]
+            }
+        ]
+    }
+}

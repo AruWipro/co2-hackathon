@@ -1,0 +1,110 @@
+[
+    {
+        "timestamp": "2025-05-24T00:00:00.000Z",
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "total_executionTime_MS": 9100,
+        "cpuTime_MS": 977.19,
+        "memoryUsed_MB": 13.06,
+        "cpuEnergy_J": 658.42,
+        "ramEnergy_J": 0.00317,
+        "totalEnergy_J": 658.42317,
+        "path": "/contactcenter/self-service/skills/fin/product-transactions/v1",
+        "trace": [
+            {
+                "container": "skills-financial-child",
+                "namespace": "contactcenterservices",
+                "path": "/internal/transaction-processor",
+                "total_executionTime_MS": 4550,
+                "cpuTime_MS": 488.59,
+                "memoryUsed_MB": 6.53,
+                "cpuEnergy_J": 329.21,
+                "ramEnergy_J": 0.00158,
+                "totalEnergy_J": 329.21158
+            },
+            {
+                "container": "skills-financial-db",
+                "namespace": "contactcenterservices",
+                "path": "/db/query",
+                "total_executionTime_MS": 2275,
+                "cpuTime_MS": 244.29,
+                "memoryUsed_MB": 3.265,
+                "cpuEnergy_J": 164.605,
+                "ramEnergy_J": 0.00079,
+                "totalEnergy_J": 164.60579
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-05-23T00:00:00.000Z",
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "total_executionTime_MS": 8645,
+        "cpuTime_MS": 928.33,
+        "memoryUsed_MB": 12.41,
+        "cpuEnergy_J": 625.50,
+        "ramEnergy_J": 0.00301,
+        "totalEnergy_J": 625.50301,
+        "path": "/contactcenter/self-service/skills/fin/product-transactions/v1",
+        "trace": [
+            {
+                "container": "skills-financial-child",
+                "namespace": "contactcenterservices",
+                "path": "/internal/transaction-processor",
+                "total_executionTime_MS": 4322,
+                "cpuTime_MS": 464.16,
+                "memoryUsed_MB": 6.20,
+                "cpuEnergy_J": 312.75,
+                "ramEnergy_J": 0.00150,
+                "totalEnergy_J": 312.75150
+            },
+            {
+                "container": "skills-financial-db",
+                "namespace": "contactcenterservices",
+                "path": "/db/query",
+                "total_executionTime_MS": 2161,
+                "cpuTime_MS": 232.08,
+                "memoryUsed_MB": 3.10,
+                "cpuEnergy_J": 156.37,
+                "ramEnergy_J": 0.00075,
+                "totalEnergy_J": 156.37075
+            }
+        ]
+    },
+    {
+        "timestamp": "2025-05-22T00:00:00.000Z",
+        "container": "skills-financial",
+        "namespace": "contactcenterservices",
+        "total_executionTime_MS": 9555,
+        "cpuTime_MS": 1026.05,
+        "memoryUsed_MB": 13.71,
+        "cpuEnergy_J": 691.34,
+        "ramEnergy_J": 0.00333,
+        "totalEnergy_J": 691.34333,
+        "path": "/contactcenter/self-service/skills/fin/product-transactions/v1",
+        "trace": [
+            {
+                "container": "skills-financial-child",
+                "namespace": "contactcenterservices",
+                "path": "/internal/transaction-processor",
+                "total_executionTime_MS": 4777,
+                "cpuTime_MS": 513.02,
+                "memoryUsed_MB": 6.85,
+                "cpuEnergy_J": 345.67,
+                "ramEnergy_J": 0.00166,
+                "totalEnergy_J": 345.67166
+            },
+            {
+                "container": "skills-financial-db",
+                "namespace": "contactcenterservices",
+                "path": "/db/query",
+                "total_executionTime_MS": 2388,
+                "cpuTime_MS": 256.51,
+                "memoryUsed_MB": 3.42,
+                "cpuEnergy_J": 172.83,
+                "ramEnergy_J": 0.00083,
+                "totalEnergy_J": 172.83083
+            }
+        ]
+    }
+]

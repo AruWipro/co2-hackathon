@@ -1,0 +1,39 @@
+{
+    "_id": {
+        "$oid": "6831d85ff8a2ad029a5d614b"
+    },
+    "container": "coversation-orchestrator",
+    "namespace": "contactcenterservices",
+    "total_executionTime_MS": 11828.236719510169,
+    "cpuTime_MS": 15.509563239337924,
+    "memoryUsed_MB": 0.014631663433337666,
+    "cpuEnergy_J": 851.6330438047321,
+    "ramEnergy_J": 0,
+    "totalEnergy_J": 851.6330438047321,
+    "total_emissions_gCO2": 0.4038339107601196,
+    "trace": [
+        {
+            "container": "skills-financial",
+            "namespace": "contactcenterservices",
+            "path": "/contactcenter/self-service/skills/fin/product-transactions/v1",
+            "total_executionTime_MS": 9100.894655536027,
+            "cpuTime_MS": 977.1902740588893,
+            "memoryUsed_MB": 13.066075445970535,
+            "cpuEnergy_J": 658.4248545001949,
+            "ramEnergy_J": 0.0031750709650342733,
+            "totalEnergy_J": 658.4280295711599,
+            "total_emissions_gCO2": 0.2926332686667533,
+            "trace": [],
+            "_id": {
+                "$oid": "6831d85ff8a2ad029a5d614c"
+            },
+            "timestamp": {
+                "$date": "2025-05-24T14:31:59.341Z"
+            }
+        }
+    ],
+    "timestamp": {
+        "$date": "2025-05-23T14:31:59.341Z"
+    }
+},
+"__v": 0
